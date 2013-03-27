@@ -23,7 +23,7 @@ object MinimalBuild extends Build {
     javacOptions += "-Xlint:unchecked",
     libraryDependencies += "biz.source_code" % "base64coder" % "2010-12-19",
     libraryDependencies += "com.typesafe" %% "play-plugins-util" % buildVersion,
-    libraryDependencies += "play" %% "play" % buildVersion % "provided",
+    libraryDependencies += "play" %% "play" % "2.1.0" % "provided",
     libraryDependencies += "org.sedis" % "sedis_2.10.0" % "1.1.1"
   )
 }
